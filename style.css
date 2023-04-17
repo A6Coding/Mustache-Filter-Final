@@ -1,0 +1,39 @@
+h3{
+    font-size:25px !important;
+}
+
+
+
+.btn-danger:hover{
+background-color: green;
+}
+
+.btn-danger{
+    border-color: black;
+}
+
+canvas{
+    border-radius:15px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{box-shadow: 1px 1px 35px red;}
+to{box-shadow: 1px 1px 35px orange;}
+}
+
+.copy_right_footer{
+    width:100%;
+    line-height: 2;
+    text-align:center;
+    background-color:white;
+    position: fixed;
+    bottom: 0;
+}
+
+#credentials{
+    border-radius: 25px;
+}
